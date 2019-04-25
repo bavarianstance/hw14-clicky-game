@@ -1,3 +1,4 @@
+// import components
 import React, { Component } from "react";
 import './App.css';
 import Navbar from "./components/navbar";
@@ -6,6 +7,7 @@ import Footer from "./components/footer";
 import Jumbotron from "./components/jumbotron";
 import imgs from "./imgs"
 
+// init app component
 class App extends Component {
   state = {
     score:0,
@@ -16,9 +18,9 @@ class App extends Component {
     clicked: [],
     wobble: false
   };
-
+// assign and bind clickEvent to chkClicked var 
   clickEvent = this.chkClicked.bind(this);
-
+// shuffle function
   shuffle() {
     let newArray = imgs.slice();
     let shuffledArray = [];
@@ -28,14 +30,14 @@ class App extends Component {
     }
    return shuffledArray; 
   }
-
+// init chkClicked function
   chkClicked(clickedElement) {
     let lastState = this.state.clicked.slice();
     let shuffled = this.shuffle();
-
+// assigns scores
     let score = this.state.score;
     let highScore = this.state.highScore;
-
+// logic to determine score counting 
     if (!this.state.clicked.includes(clickedElement)) {
       if (score === highScore) {
         score++;
@@ -45,7 +47,7 @@ class App extends Component {
       }
       lastState.push(clickedElement);
     }
-
+// logic for incorrect guess
     if (this.state.clicked.includes(clickedElement)) {
       let score = 0;
       return this.setState({
@@ -58,7 +60,7 @@ class App extends Component {
         wobble: true
       });
     }
-
+// logic for correct guess
     this.setState({
       score: score,
       highScore: highScore,
@@ -68,10 +70,10 @@ class App extends Component {
       clicked: lastState,
       wobble: false
     });
-
+// this function returns navmsg to default after 500 ms
     return setTimeout( () => this.setState({ navMsgLogic: ""}), 500);
   }
-
+// init render for main page incl navbar, jumbotron and primary container + footer
   render() {
     let state = this.state;
     return (

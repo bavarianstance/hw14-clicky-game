@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-
+// below JSX assigns logic for appropriate state for navbar message depending on user input and calcs scores
 const Navbar = (props) => {
 	return (
 		<nav className = "navbar navbar-dark bg-dark">
