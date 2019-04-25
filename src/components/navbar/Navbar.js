@@ -3,8 +3,8 @@ import "./style.css";
 
 const Navbar = (props) => {
 	return (
-		<nav className = "navbar navbar-light bg-light">
-		<div>A BayVarian Production</div>
+		<nav className = "navbar navbar-dark bg-dark">
+		<div>A Bayvarian Production</div>
 		<div className = {props.navMsgLogic}> {props.navMsg} </div>
 		<div>
 		Score: {props.score} <span className = "divider"> | </span> Top Score: {props.highScore}

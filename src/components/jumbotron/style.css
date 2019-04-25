@@ -1,0 +1,15 @@
+.jumbotron {
+  background-image: url("../../imgs/m5.jpg");
+  background-size: cover;
+}
+
+h1 {
+	color:white;
+	text-shadow: 2px 2px black;
+}
+
+p {
+	color:white;
+	text-shadow: 2px 2px black;
+	font-weight: bold;
+}

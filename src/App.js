@@ -4,8 +4,7 @@ import Navbar from "./components/navbar";
 import Container from "./components/container";
 import Footer from "./components/footer";
 import Jumbotron from "./components/jumbotron";
-import imgs from "./imgs/"
-export default App;
+import imgs from "./imgs"
 
 class App extends Component {
   state = {
@@ -70,7 +69,7 @@ class App extends Component {
       wobble: false
     });
 
-    return setTimeOut( () => this.setState({ navMsgLogic: ""}), 500);
+    return setTimeout( () => this.setState({ navMsgLogic: ""}), 500);
   }
 
   render() {
