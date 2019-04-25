@@ -1,5 +1,6 @@
 {
   "name": "hw14-clicky-game",
+  "homepage": "https://bavarianstance.github.io/hw14-clicky-game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
