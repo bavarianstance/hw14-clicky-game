@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/hw14-clicky-game/static/css/main.96eb258c.chunk.css",
+    "main.js": "/hw14-clicky-game/static/js/main.b3b95489.chunk.js",
+    "main.js.map": "/hw14-clicky-game/static/js/main.b3b95489.chunk.js.map",
+    "runtime~main.js": "/hw14-clicky-game/static/js/runtime~main.019757e5.js",
+    "runtime~main.js.map": "/hw14-clicky-game/static/js/runtime~main.019757e5.js.map",
+    "static/js/2.76d8ed81.chunk.js": "/hw14-clicky-game/static/js/2.76d8ed81.chunk.js",
+    "static/js/2.76d8ed81.chunk.js.map": "/hw14-clicky-game/static/js/2.76d8ed81.chunk.js.map",
+    "index.html": "/hw14-clicky-game/index.html",
+    "precache-manifest.c60339bd820c1e2a4307ca1a877759df.js": "/hw14-clicky-game/precache-manifest.c60339bd820c1e2a4307ca1a877759df.js",
+    "service-worker.js": "/hw14-clicky-game/service-worker.js",
+    "static/css/main.96eb258c.chunk.css.map": "/hw14-clicky-game/static/css/main.96eb258c.chunk.css.map",
+    "static/media/audi.png": "/hw14-clicky-game/static/media/audi.747d3a21.png",
+    "static/media/bmw.jpg": "/hw14-clicky-game/static/media/bmw.b9058a46.jpg",
+    "static/media/ferrari.jpg": "/hw14-clicky-game/static/media/ferrari.d495cff5.jpg",
+    "static/media/ford.jpg": "/hw14-clicky-game/static/media/ford.287a6888.jpg",
+    "static/media/hyundai.png": "/hw14-clicky-game/static/media/hyundai.8f6c0f83.png",
+    "static/media/lambo.jpg": "/hw14-clicky-game/static/media/lambo.7d2f41dd.jpg",
+    "static/media/style.css": "/hw14-clicky-game/static/media/m5.d1f3da1f.jpg",
+    "static/media/mazda.jpg": "/hw14-clicky-game/static/media/mazda.e9e103b8.jpg",
+    "static/media/nissan.png": "/hw14-clicky-game/static/media/nissan.ef71d13a.png",
+    "static/media/porsche.jpg": "/hw14-clicky-game/static/media/porsche.03cf7501.jpg",
+    "static/media/subaru.png": "/hw14-clicky-game/static/media/subaru.9e96cd32.png",
+    "static/media/toyota.jpg": "/hw14-clicky-game/static/media/toyota.2bd2a659.jpg"
+  }
+}
