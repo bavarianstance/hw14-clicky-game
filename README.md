@@ -23,3 +23,4 @@
 ### Comments
 * Added CSS animations for correct/incorrect guesses.
 * main app logic is in app.js
+* fully mobile responsive
