@@ -1,5 +1,5 @@
 import React from "react";
-import "./Jumbotron.css";
+import "./style.css";
 
 const Jumbotron = () => {
 	return (<div className="jumbotron jumbotron-fluid">
@@ -8,7 +8,6 @@ const Jumbotron = () => {
     <p className="lead">Click on any logo to increase score, but if you hit a dupe - game over!</p>
   </div>
 </div>
-
 	);
 }
 
